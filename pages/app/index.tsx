@@ -48,7 +48,7 @@ export default function DocsPage() {
         </div>
         <div className="min-w-[45vw] min-h-[80vh]">
           <div
-            className="bg-[#27272A] text-slate-100 font-thin tracking-widest font-robotomono hover:opacity-95 opacity-90 duration-200 border-none focus-none outline-none p-3 px-4 min-h-[82vh] border rounded-lg"
+            className="bg-[#27272A] text-slate-100 font-thin tracking-[0.03em] leading-[1.8em] font-i hover:opacity-95 opacity-90 duration-200 border-none focus-none outline-none p-3 px-4 min-h-[82vh] border rounded-lg"
             dangerouslySetInnerHTML={{ __html: inputText }}
           />
         </div>
