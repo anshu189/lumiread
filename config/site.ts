@@ -5,6 +5,6 @@ export const siteConfig = {
   description: "Read Smarter, Not Harder.",
   routes: {
     lumiReadApp: "/app",
-    github: "https://github.com/anshu189",
+    github: "https://github.com/anshu189/lumiread",
   },
 };
