@@ -20,7 +20,7 @@ export const Navbar = () => {
   return (
     <NextUINavbar maxWidth="xl" position="sticky" className="bg-transparent">
       <NavbarBrand className="flex justify-center items-center pt-2 bg-transparent">
-        <Link className="font-display p-1" href="/">
+        <Link className="funnel-display p-1" href="/">
           <Chip color="secondary" variant="dot" size="lg">
             Lumiread
           </Chip>

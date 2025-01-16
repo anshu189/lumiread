@@ -38,7 +38,7 @@ export default function DocsPage() {
             disableAutosize
             isClearable
             classNames={{
-              input: "p-2 min-h-[80vh] font-robotomono text-md",
+              input: "p-2 min-h-[80vh] montserrat text-md",
             }}
             label=""
             placeholder="Attention neurodivergent community - this bionic reading method is absolutely mind blowing. Your eyes scan the first bold letters and your brain center automatically completes the words. It lets you read twice as fast, is less overwhelming and helps you to stay focused. You will feel much more productive and a greater sense of achievement which will boost your confidence and makes you overall feel more positive. Let me know in the comments if this bionic reading method works for you."
@@ -48,7 +48,7 @@ export default function DocsPage() {
         </div>
         <div className="min-w-[45vw] min-h-[80vh]">
           <div
-            className="bg-[#27272A] text-slate-100 font-thin tracking-[0.03em] leading-[1.8em] font-i hover:opacity-95 opacity-90 duration-200 border-none focus-none outline-none p-3 px-4 min-h-[82vh] border rounded-lg"
+            className="bg-[#dbdbdb] text-black font-extrathin tracking-[0.02em] leading-[1.8em] montserrat hover:opacity-95 opacity-90 duration-200 border-none focus-none outline-none p-3 px-4 min-h-[82vh] border rounded-lg"
             dangerouslySetInnerHTML={{ __html: inputText }}
           />
         </div>
